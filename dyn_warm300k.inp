@@ -1,0 +1,36 @@
+[MD]
+steps                 30000    
+stepsize                1
+temperature             300
+bath_coupling           100
+separate_scaling        on
+lrf                     on
+shake_solvent		on
+
+[sphere]
+exclude_bonded		on
+
+[cut-offs]
+q_atom                  99
+
+
+[intervals]
+non_bond                30
+output                500
+trajectory           5000 
+
+[files]
+restart		dyn_warm150k.re
+topology        BL.top
+final           dyn_warm300k.re
+trajectory	dyn_warm300k.dcd
+fep		BL.fep
+
+[lambdas]
+1.0     0.0
+
+[sequence_restraints]
+1       3989    5      0       0
+
+
+

@@ -1,0 +1,35 @@
+[MD]
+steps                30000   
+stepsize                1
+temperature             300
+bath_coupling           100
+separate_scaling        on
+#random_seed		2013
+#initial_temperature    1
+lrf                     on
+
+[sphere]
+exclude_bonded		on
+
+[cut-offs]
+q_atom                  99
+
+
+[intervals]
+non_bond                30
+output                100
+trajectory            500 
+
+[files]
+restart		dyn_min_wat.re
+topology        BL.top
+final           dyn_min_wat_eq.re
+trajectory	dyn_min_wat_eq.dcd
+fep		BL.fep
+
+[lambdas]
+1.0     0.0
+
+[sequence_restraints] 
+1       3989   200     0       0
+
