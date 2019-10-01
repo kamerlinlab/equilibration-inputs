@@ -1,1 +1,5 @@
 # equilibration-inputs
+
+This is the order for running the equilibration
+
+dyn_min_wat_noshake dyn_min_wat dyn_min_wat_eq dyn_cool dyn_min dyn_warm30k dyn_warm150k dyn_warm300k dyn_eq300k_1 dyn_eq300k_2 dyn_eq300k_3 dyn_eq300k_4 dyn_eq300k_5 dyn_eq300k_6 dyn_eq300k_7 dyn_eq300k_8 dyn_eq300k_9 dyn_eq300k_10 dyn_eq300k_11 dyn_eq300k_12 dyn_eq300k_13 dyn_eq300k_14 dyn_eq300k_15 dyn_eq300k_16 dyn_eq300k_17 dyn_eq300k_18 dyn_eq300k_19 dyn_eq300k_20
